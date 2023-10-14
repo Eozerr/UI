@@ -213,7 +213,71 @@ header ul .submenu li a{
     background-image: url(../images/next.png);
 }
 
-/*  ----Footer---- */
+/* ---- 'How to serve products' section ---- */
+
+.about_section {
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 175px;
+}
+
+.about_section h2 {
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.about_section h4 {
+    font-size: 22px;
+    font-weight: 600;
+    border-width: 50%;
+    display: inline-block;
+    border-bottom: 3px solid #173d7b;
+}
+
+.about_card-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.about_card .about-detail {
+    padding: 20px 25px 35px 25px;
+}
+.container-about_partial{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about_img-container {
+    width: 275px;
+    background-color: #1ba1b9;
+    height: 275px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #a4b7e8;
+    margin: 0 auto 45px auto;
+}
+
+.about_card .about_img-box {
+    width: 125px;
+}
+
+.about_card .about-detail p {
+    margin-top: 15px;
+}
+
+.about_card img {
+    width: 100%;
+}
+
+
+/*  ---- Footer ---- */
+
 .container-footer{
     max-width: 1170px;
     margin: auto;
@@ -300,4 +364,6 @@ footer ul {
     color: #24262b;
     background-color: white;
 }
+
+
 
