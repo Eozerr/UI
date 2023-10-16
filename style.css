@@ -79,7 +79,7 @@ header ul .submenu li a{
     width: 100%;
 }
 
-/*  ----Slider---- */
+/*  ----------------------------------------- Slider ----------------------------------------- */
 
 .hero_area  {
     
@@ -134,6 +134,7 @@ header ul .submenu li a{
 
 .slider_item-detail h1 {
     font-weight: 600;
+    font-size: 36px;
 }
 
 .slider_item-detail p {
@@ -213,7 +214,7 @@ header ul .submenu li a{
     background-image: url(../images/next.png);
 }
 
-/* ---- 'How to serve products' section ---- */
+/* ----------------------------------------- 'How to serve products' section ----------------------------------------- */
 
 .about_section {
     margin-top: 75px;
@@ -275,7 +276,7 @@ header ul .submenu li a{
     width: 100%;
 }
 
-/* ---- Activity section ---- */
+/* ----------------------------------------- Activity section ----------------------------------------- */
 
 .activity_section{
     background-color: #b3e0ff;
@@ -332,10 +333,60 @@ header ul .submenu li a{
     font-weight: bold;
 }
 
+/* ----------------------------------------- 'Who are we' section ----------------------------------------- */
+
+.admin_section{
+    padding-top: 75px;
+    text-align: center;
+}
+
+.admin_card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.admin_img-container{
+    background-color: #173d7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+
+.admin_img-box{
+    width: 100px;
+}
+
+.admin_card{
+    width: 300px;
+    padding: 0 15px;
+    margin: 35px 0;
+}
+
+.admin_card h5{
+    text-transform: uppercase;
+}
+
+.admin_card img{
+    width: 100%;
+}
+
+.admin_detail-box{
+    margin: 35px auto 0 auto;
+}
+
+.admin_detail-box h4{
+    font-weight: 600;
+    font-size: 20;
+}
 
 
 
-/*  ---- Footer ---- */
+/*  ----------------------------------------- Footer ----------------------------------------- */
 
 .container-footer{
     max-width: 1170px;
