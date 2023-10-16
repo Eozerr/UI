@@ -275,6 +275,65 @@ header ul .submenu li a{
     width: 100%;
 }
 
+/* ---- Activity section ---- */
+
+.activity_section{
+    background-color: #b3e0ff;
+    color: black;
+}
+
+.activity_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+
+.activity_section .activity_img-box{
+    background-color: white;
+    background: fixed;
+    padding: 50px;
+    overflow: hidden;
+    transform: scale(1.01) translateX(-10%);
+    width: 65%;
+    
+}
+
+.activity_img-box {
+    width: 100%;
+}
+
+.activity_section .activity_detail-box{
+    text-align: end;
+    width: 40%;
+}
+
+.activity_section .activity_detail-box h2 {
+    font-weight: bold;
+}
+
+.activity_section .activity_detail-box p {
+    margin: 45px 0 50px 0;
+}
+
+.activity_section .activity_detail-box a {
+    display: inline-block;
+    background-color: #173d7b;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+}
+
+.activity_section .activity_detail-box h6 {
+    padding-top: 25px;
+    color: #e0339c;
+    font-weight: bold;
+}
+
+
+
 
 /*  ---- Footer ---- */
 
