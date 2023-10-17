@@ -336,7 +336,7 @@ header ul .submenu li a{
 /* ----------------------------------------- 'Who are we' section ----------------------------------------- */
 
 .admin_section{
-    padding-top: 75px;
+    padding-top: 125px;
     text-align: center;
 }
 
@@ -391,6 +391,65 @@ header ul .submenu li a{
     text-align: justify;
 }
 
+/* ----------------------------------------- Contact section ----------------------------------------- */
+
+.contact_section .container{
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+.heading_container{
+    margin-bottom: 50px;
+}
+
+.contact_section input{
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: white;
+    outline: none;
+    color: black;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact_section input::-webkit-input-placeholder {
+    color: #737272;
+}
+
+.contact_section input:-ms-input-placeholder {
+    color: #737272;
+}
+
+.contact_section input::-ms-input-placeholder {
+    color: #737272;
+}
+
+.contact_section input::placeholder {
+    color: #737272;
+}
+
+.contact_section input.message-box {
+    height: 135px;
+}
+
+.contact_section a{
+    display: inline-block;
+    background-color: #173d7b;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.contact_section .map_container{
+    height: 360px;
+}
+
+.contact_section .map_container .map{
+    height: 100%;
+}
 
 
 /*  ----------------------------------------- Footer ----------------------------------------- */
