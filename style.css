@@ -260,7 +260,7 @@ header ul .submenu li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px solid #a4b7e8;
+    border: 15px solid #b3e0ff;
     margin: 0 auto 45px auto;
 }
 
@@ -343,11 +343,13 @@ header ul .submenu li a{
 .admin_card-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .admin_img-container{
-    background-color: #173d7b;
+    background-color: #c0c0c0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,8 +382,13 @@ header ul .submenu li a{
 }
 
 .admin_detail-box h4{
+
     font-weight: 600;
-    font-size: 20;
+    font-size: 20px;
+}
+
+.admin_detail-box p{
+    text-align: justify;
 }
 
 
