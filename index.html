@@ -21,7 +21,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">About</a></li>
+                        <li><a id="goToAbout" href="#">About</a></li>
                         <li><a href="#">Products</a>
                             <ul class="submenu">
                                 <li><a href="#">Network</a></li>
@@ -30,16 +30,16 @@
                             </ul>
                         </li>
                         <li><a href="#">Mission-Vision</a></li>
-                        <li><a href="#">Our Units</a>
+                        <li><a href="#">Discover More</a>
                             <ul class="submenu">
-                                <li><a href="#">Our Team</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Locations</a></li>
-                                <li><a href="#">References</a></li>
-                                <li><a href="#">Career Opportunities</a></li>
+                                <li><a id="goToTeam" href="#">Our Team</a></li>
+                                <li><a id="goToEvent" href="#">Events</a></li>
+                                <li><a id="goToContact2" href="#">Locations</a></li>
+                                <li><a id="goToPortfolio" href="#">Service Portfolio</a></li>
+                                <li><a id="goToContact3" href="#"> Career </a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a id="goToContact" href="#">Contact Us</a></li>
                     </ul>
                 </nav>
             </header>
@@ -100,10 +100,10 @@
                 <div style="height: 300px;"></div>
             </section>
         </div>
-        <!------------------- 'How to serve products' section ------------------->
+        <!------------------- 'about the products' section ------------------->
         <section class="about_section layout_padding">
-            <div class="container">
-                <h2 class="text-uppercase">how to serve products</h2>
+            <div id="container-about" class="container">
+                <h2 class="text-uppercase">about the products</h2>
             </div>
             
             <div class="container-about_partial">
@@ -164,7 +164,7 @@
         </section>
 
         <section class="chart_section">
-            <div class="chart-container">
+            <div id="container-portfolio" class="chart-container">
                 <h2>Distribution of Provided Services</h2>
                 <canvas id="pie" ></canvas>
             </div>
@@ -172,7 +172,7 @@
 
         <!------------------- Activity section ------------------->
         <section class="activity_section">
-            <div class="container activity_container">
+            <div id="container-event" class="container activity_container">
                 <div class="activity_img-box">
                     <img src="images/CN-(1).jpg" alt="">
                 </div>
@@ -184,10 +184,9 @@
                 </div>
             </div>
         </section>
-
         <!------------------- 'Who Are We?' section ------------------->
         <section class="admin_section layout_padding" >
-                <div class="container">
+                <div id="container-team" class="container">
                     <h2 class="text-uppercase"> Who Are We?</h2>
                 </div>
                 <div>
@@ -230,8 +229,8 @@
         </section>
         <!------------------- Contact section  ------------------->
         <section class="contact_section layout_padding">
-            <div class="container">
-                <div class="heading_container">
+            <div  class="container">
+                <div id="contact-heading" class="heading_container">
                     <h2>Contact Us</h2>
                 </div>
                 <div class="row">
@@ -263,10 +262,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-                
-        <section>
-
         </section>
         <!------------------- Footer section ------------------->
         <section>
