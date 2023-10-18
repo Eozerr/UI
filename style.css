@@ -276,6 +276,32 @@ header ul .submenu li a{
     width: 100%;
 }
 
+/* ----------------------------------------- Chart section ----------------------------------------- */
+.chart_section{
+    display: flex;
+    
+
+
+}
+
+.chart-container{
+    position: relative;
+    margin: 0 auto;
+}
+
+.chart-container h2{
+    margin-bottom: 55px;
+    text-transform: uppercase;
+}
+#pie {
+    width: 500px !important;
+    height: 500px !important;
+    margin-bottom: 150px;
+    margin-left: 65px;
+}
+
+
+
 /* ----------------------------------------- Activity section ----------------------------------------- */
 
 .activity_section{
