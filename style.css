@@ -92,6 +92,33 @@ header ul .submenu li a{
     
 }
 
+.hero_area-network{
+    background-color: #b3e0ff;
+    background-image: url('images/server-room-system-administration-control-center-it-technology_126283-2123.avif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-x: 10%;
+    height: 650px;
+
+}
+.container_network{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-detail{
+    margin-top: 50px;
+    text-align: center;
+    color: #080000;
+}
+
+.slider_section2 {
+    
+    padding-top: 50px;
+    padding-left: 50%;
+}
 
 .slider_section {
     
