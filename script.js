@@ -52,3 +52,4 @@ document.getElementById("goToPortfolio").addEventListener("click", function (eve
     const targetPosition = contactSection.offsetTop - offset;
     window.scrollTo({ top: targetPosition, behavior: "smooth" });
 });
+
