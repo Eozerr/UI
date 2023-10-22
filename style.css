@@ -80,7 +80,7 @@ header ul .submenu li a{
 }
 
 /*  ----------------------------------------- Slider ----------------------------------------- */
-
+/* Backgrounds */
 .hero_area  {
     
     background-color: #b3e0ff;
@@ -123,6 +123,18 @@ header ul .submenu li a{
     height: 650px;
 
 }
+.hero_area3{
+    background-color: #b3e0ff;
+
+    height: 650px;
+}
+
+.hero_area4{
+    background-color: #b3e0ff;
+
+    height: 980px;
+}
+
 .container_network{
     width: 100%;
     display: flex;
@@ -269,7 +281,6 @@ header ul .submenu li a{
 
 /* ----------------------------------------- 'ABOUT THE PRODUCTS' section ----------------------------------------- */
 
-
 .about_section {
     margin-top: 75px;
     text-align: center;
@@ -415,6 +426,24 @@ header ul .submenu li a{
     padding-top: 25px;
     color: #e0339c;
     font-weight: bold;
+}
+
+.row_events{
+    border: 2px solid #dbdbdb; /* Siyah kenarlık */
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.img_events{
+    width: 350px;
+    height: auto;
+}
+.img_events-priv{
+    width: 350px;
+    height: 220px;
 }
 
 /* ----------------------------------------- 'Who are we' section ----------------------------------------- */
@@ -626,16 +655,6 @@ footer ul {
 }
 
 
-.hero_area3{
-    background-color: #b3e0ff;
-
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 45%;
-    background-position-x: 10%;
-    height: 650px;
-}
-
 .RightContentBlock {
     padding: 20px;
 }
@@ -695,9 +714,6 @@ footer ul {
     padding-left: 10px;
 }
 
-
-
-/* Linklerin stil ayarları */
 .ic-sol a{
     color: black;
     text-decoration: none;
@@ -707,4 +723,4 @@ footer ul {
     color: #e0339c;
     border-bottom: 1px solid #e0339c;
 }
-/* Admin page  */
+
