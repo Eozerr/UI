@@ -626,4 +626,84 @@ footer ul {
 }
 
 
+.hero_area3{
+    background-color: #b3e0ff;
 
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-x: 10%;
+    height: 650px;
+}
+
+.RightContentBlock {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* İçerik bloğu tasarımı */
+.ic-sol {
+    float: left;
+    width: 20%;
+    border-right: 3px solid black;
+}
+
+.ic-sol ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ic-sol li.main-li {
+    margin: 10px 0;
+}
+
+.ic-sol li.sub-li {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.ic-sag {
+    float: right;
+    width: 80%;
+}
+
+.ic-baslik {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+.ic-sag h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+    padding-top: 25px;
+}
+
+.ic-sag p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ic-sag p::first-letter {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+
+
+/* Linklerin stil ayarları */
+.ic-sol a{
+    color: black;
+    text-decoration: none;
+}
+
+.ic-sol a:hover{
+    color: #e0339c;
+    border-bottom: 1px solid #e0339c;
+}
