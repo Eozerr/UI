@@ -51,5 +51,5 @@ document.getElementById("goToPortfolio").addEventListener("click", function (eve
     const offset = 50; // Başlangıç yüksekliği
     const targetPosition = contactSection.offsetTop - offset;
     window.scrollTo({ top: targetPosition, behavior: "smooth" });
+    Z
 });
-
