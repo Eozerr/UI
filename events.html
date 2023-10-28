@@ -44,19 +44,32 @@
                 </nav>
             </header>
 
-            <section  >
+            <section id="eventContainer" >
                 
                 <div class="row_events">
                     <img class="img_events-priv" src="images/events1.jpg" alt="Resim 3">
-                    <p>Açıklama 3: Bu, üçüncü satırın açıklamasıdır.</p>
+                    <p class="text_events">Network Optimization Seminar
+                        <br>
+                        <br>
+                        Welcome to our special event, "Network Consultancy for Maximum Efficiency," designed to prepare you for the evolving face of the business world and ensure your network performs at its peak. This event is tailored for business owners, IT managers, and decision-makers who are eager to gain insights into customized network solutions that meet the unique needs of their businesses.
+                    </p>
+                    
                 </div>
                 <div class="row_events">
                     <img class="img_events" src="images/events2.jpg" alt="Resim 1">
-                    <p>Açıklama 1: Bu, birinci satırın açıklamasıdır.</p>
+                    <p class="text_events">Business Management and Leadership Conference
+                        <br>
+                        <br>
+                        Our business management and leadership conference is an excellent opportunity to enhance your leadership and management skills in the business world. Interact with experienced leaders and managers, learn leadership strategies, and manage your business more effectively. Join this conference to progress on your path to becoming a leader in the business world.
+                    </p>
                 </div>
                 <div class="row_events">
                     <img class="img_events" src="images/events3.avif" alt="Resim 2">
-                    <p>Açıklama 2: Bu, ikinci satırın açıklamasıdır.</p>
+                    <p ip="alinanVeri" class="text_events">Business Productivity and Network Infrastructure Workshop
+                        <br>
+                        <br>
+                        In this exclusive workshop, learn how to enhance the productivity of your business network. Discover steps to optimize your network infrastructure, improve your business processes, and achieve greater success. Join us to gain insights from our experienced experts and make your business network more efficient.
+                    </p>
                 </div>
             </section>
             
@@ -114,7 +127,10 @@
         </section>
 
     </main>
-
+    <script>
+        var alinanveriDesc =localStorage.getItem("aktarilacakVeriDesc");
+        document.getElementById("alinanVeri").value = alinanveriDesc;
+    </script>
     <script src="chart.js"></script>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

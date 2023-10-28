@@ -20,7 +20,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 100px; /* buradaki padding önemli */
+    padding: 0 45px; /* buradaki padding önemli */
     border-bottom: 1px solid #dbdbdb;
 }
 /* .logo{
@@ -444,6 +444,9 @@ header ul .submenu li a{
 .img_events-priv{
     width: 350px;
     height: 220px;
+}
+.text_events{
+    margin-left: 150px;
 }
 
 /* ----------------------------------------- 'Who are we' section ----------------------------------------- */

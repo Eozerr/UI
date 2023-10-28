@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin Dashboard</title>
+
+</head>
+<body  class="hero_area-admin">
+
+    
+    <!-- <form id="eventForm">
+        <label for="eventTitle">Event Title:</label>
+        <input type="text" id="eventTitle" name="eventTitle" required><br>
+        
+        <label for="eventContent">Event Content:</label>
+        <textarea id="eventContent" name="eventContent" required></textarea><br>
+
+        <label for="eventDescription">Event Description:</label>
+        <textarea id="eventDescription" name="eventDescription" required></textarea><br>
+
+
+    </form> -->
+    <div class="login-box">
+        <h2>Update Event</h2>
+        <form method="get" action="events.html">
+            <div class="user-box">
+                <label for="eventTitle">Event Title</label>
+                <input type="text" id="eventTitle" name="eventTitle" disabled>
+                <textarea id="eventTitleInput" name="eventTitleInput" rows="4" cols="50"></textarea>
+            </div>
+            <div class="user-box">
+                <label>Event Description</label>
+                <input type="text" id="eventDescription" name="eventDescription" disabled>
+                <textarea id="eventDescriptionInput" name="eventDescriptionInput" rows="4" cols="50"></textarea>
+            </div>
+
+            <a href="events.html" id="submitEvent">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+            </a>
+        </form>
+    </div>
+    <script>
+        document.getElementById("submitEvent").addEventListener("click",function(){
+
+            var veriDesc = document.getElementById("eventDescriptionInput").value;
+            var veriTit = document.getElementById("eventTitleInput").value;
+            localStorage.setItem("aktarilacakVeriDesc",veriveriDesc);
+            localStorage.setItem("aktarilacakVeriTit",veriTit);
+            window.location.href="index.html";
+        });
+    </script>
+    <script src="script.js"></script>
+
+</body>
+</html>

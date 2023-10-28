@@ -1,11 +1,15 @@
 html {
     height: 100%;
+    overflow: hidden;
 }
 body {
     margin:0;
     padding:0;
     font-family: sans-serif;
     background: linear-gradient(#141e30, #243b55);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
 }
 
 .login-box {
@@ -164,3 +168,16 @@ body {
     bottom: 100%;
     }
 }
+
+
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    margin-right: 125px;
+    height: 100%;
+    resize: vertical;
+}
+
+
+
+
